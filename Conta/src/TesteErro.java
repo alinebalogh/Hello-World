@@ -25,7 +25,7 @@ public class TesteErro {
 			System.out.println(i);
 		}
 			
-		System.out.println("Fim do metodo 2 2");
+		System.out.println("Fim do metodo 2");
 		
 	}
 	
