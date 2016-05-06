@@ -3,7 +3,7 @@ abstract class Conta {
 
 	protected double saldo;
 
-	public void deposita(double valor) throws ValorInvalidoException {
+	public void deposita(double valor){
 		if (valor < 0) {
 			throw new ValorInvalidoException(valor);
 		}else{
