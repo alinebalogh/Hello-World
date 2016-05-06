@@ -3,9 +3,9 @@ abstract class Conta {
 
 	protected double saldo;
 
-	void deposita(double valor) {
+	public void deposita(double valor) throws ValorInvalidoException {
 		if (valor < 0) {
-			throw new IllegalArgumentException();
+			throw new ValorInvalidoException(valor);
 		}else{
 			this.saldo += valor;
 		}
