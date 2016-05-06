@@ -4,7 +4,11 @@ abstract class Conta {
 	protected double saldo;
 
 	void deposita(double valor) {
-		this.saldo += valor;
+		if (valor < 0) {
+			throw new IllegalArgumentException();
+		}else{
+			this.saldo += valor;
+		}
 	}
 
 	public double getSaldo() {
