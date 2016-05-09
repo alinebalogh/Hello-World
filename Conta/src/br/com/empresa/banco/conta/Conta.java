@@ -1,3 +1,4 @@
+package br.com.empresa.banco.conta;
 
 abstract class Conta {
 

@@ -1,3 +1,7 @@
+package br.com.empresa.banco;
+
+import br.com.empresa.banco.conta.ContaCorrente;
+import br.com.empresa.banco.conta.Tributavel;
 
 public class TestaTributavel {
 	

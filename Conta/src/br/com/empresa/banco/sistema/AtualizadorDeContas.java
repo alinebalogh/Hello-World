@@ -1,3 +1,6 @@
+package br.com.empresa.banco.sistema;
+
+import br.com.empresa.banco.conta.ContaCorrente;
 
 public class AtualizadorDeContas {
 
@@ -8,7 +11,7 @@ public class AtualizadorDeContas {
 		this.selic = selic;
 	}
 
-	public void roda(Conta c) {
+	public void roda(ContaCorrente c) {
 
 		System.out.println("Saldo Anterior: " + c.getSaldo());
 		c.atualiza(selic);

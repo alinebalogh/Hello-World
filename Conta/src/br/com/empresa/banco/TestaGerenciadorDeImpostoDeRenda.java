@@ -1,3 +1,8 @@
+package br.com.empresa.banco;
+
+import br.com.empresa.banco.conta.ContaCorrente;
+import br.com.empresa.banco.conta.SeguroVida;
+import br.com.empresa.banco.sistema.GerenciadorDeImpostoDeRenda;
 
 public class TestaGerenciadorDeImpostoDeRenda {
 
